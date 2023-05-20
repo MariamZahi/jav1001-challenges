@@ -9,7 +9,7 @@ package challenges
  * Sample Output: [4, 9, 25, 49, 81]
  */
 
-fun sortedSquares(list: List<Int>): List<Int> {
+//fun sortedSquares(list: List<Int>): List<Int> {
     // Create an empty list
     // Add the square values of 2,3,5,7,9 to that list
     
@@ -29,6 +29,9 @@ fun sortedSquares(list: List<Int>): List<Int> {
 
     val nineSquared = 9*9
     result.add(nineSquared)
+
+    val tenSquared = 10*10
+    result.add(tenSquared)
 
     return result
 }
